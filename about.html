@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="public/css/aboutus_responsive.css">
+	<link rel="stylesheet" href="public/css/home_style.css">
+    	<link rel="stylesheet" href="public/css/home_media.css">
+    	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    	<link rel="icon" type="image/x-icon" href="images/logo.png">
+	<title>About Us</title>
+</head>
+<body>
+<!-- 	<nav>
+		<ul><li>[RAW]</li></ul>
+		<ul>
+			<a href="#">HOME</a>
+			<a href="#">TEAM</a>
+			<a href="#">ABOUT</a>
+			<a href="#">CONTACT</a>
+			<a href="#">PROJECTS</a>
+		</ul>
+	</nav> -->
+
+	<!-- Navbar Starts Here -->
+	<div class="navbar">
+        <img src="public/images/logo.png" alt="" width="5%">
+    <ul id="menu_list">
+       <li>
+                <a href="index">Home</a>
+            </li>
+            <li>
+                <a href="team">Team</a>
+            </li>
+            <li>
+                <a href="about">About</a>
+            </li>
+            <li>
+                <a href="contact">contact</a>
+            </li> 
+            <li>
+                <a href="">projects</a>
+            </li>
+    </ul>
+    <i class="far fa-bars" onclick="togglefunction()"></i>
+    </div>
+    <!-- Navbar Ends Here -->
+
+	<div id="hero_section">
+		<div id="black_hero_gradient">
+			<h1 id="heading">WE ARE <br><em>ENTHUSIASTS</em></h1>
+
+            <p>Our goal is to bring out your inner craving of learning technology to the <b>next level</b>... Not only theoretical knowledge, but learning by doing. Unleash yourself by joining RAW!</p>
+		</div>
+	</div>
+
+	<div class="quote">
+	<p><em>"</em>We believe <em>success</em> comes not from thinking about goals, but <em>taking actions</em> to achieve them.<em>"</em></p>
+	</div>
+
+	<div id="details_container">
+		<div id="black_details_container_gradient">
+			<ul>
+				<li>MECHANICAL ASPECT</li>
+				<li>Learn about a variety of mechanical parts used and their used hands-on with our wide variety of resources in RAW team, making yourself comfortable will lead you to know much more about other aspects involved such as links, joints, wrists, etc.</li>
+			</ul>
+			<ul>
+				<li>CONTROL AND POWER</li>
+				<li>After learning about mechanical aspect, we move to controlling the robot by use of various tools, learning about drives, actuators, controllers and sensors.</li>
+			</ul>
+			<ul>
+				<li>PROGRAMMING ROBOTS</li>
+				<li>One of the most important aspects about robots where you tell the robot what to do by use of programming languauges, might be tricky at first, but as you progress, they become your second nature and having a good command over basics of robots.</li>
+			</ul>
+            <ul>
+                <li>EXPLORE</li>
+                <li>After learning with us these aspects, you become capable to be model your own robots and become ready to get your hands dirty and create whatever you dreamt of, <b>the sky's the limit.</b></li>
+		</div>
+	</div>
+	
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <img src="public/images/RAW-LOGO-2.png" alt="" width="34%">
+        <p class="footer-links">
+            <a href="home" class="link-1">HOME</a>
+            
+            <a href="team">TEAM</a>
+
+            <a href="#">ABOUT</a>
+                
+            <a href="contact">CONTACTS</a>
+            
+            <a href="#">PROJECTS</a>
+        </p>
+
+        <p class="footer-company-name">© Copyright 2022. All Rights Reserved.</p>
+        <br>
+        <p class="footer-company-name">Designed & Developed By: Amit Rout | Aniket Kumar | Darshanraj Pattanaik</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fas fa-location-arrow"></i>
+            <p><span>Block-II 1st Floor, RAW Room</span> GCE, keonjhar</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91-9090268384</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:raw@gcekjr.ac.in">raw@gcekjr.ac.in</a></p>
+        </div>
+
+    </div>
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About RAW</span>
+            This Club is a community of students who derive pleasure in creating robots that may even be potent to work without human intervention. Each member of this family is provided insight into mechanical, basic electronic, monetary and informatory aid besides the indispensable guidance of experienced members.
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="https://www.facebook.com/govermentcollegeofengineeringkeonjhar"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/gcekeonjhar"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/raw.gcekjr/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCBG11FnCVQKY7UgJW9kSjdw"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <hr style="color: yellow; background-color: yellow; height: 1px; border: none; width: 96%; margin-top: 20px;">
+</footer>
+
+	<script type="text/javascript">
+		var v= document.querySelector("#menu_list");
+		function myFunction(x) {
+		    if (x.matches) { // If media query matches
+		        v.style.display='none';
+		    } else {
+		        v.style.display='block';
+		    }
+		  }
+		  
+		  var x = window.matchMedia("(max-width: 750px)")
+		  myFunction(x) // Call listener function at run time
+		  x.addListener(myFunction) // Attach listener function on state changes
+		function togglefunction(){
+		    if(v.style.display=='none'){
+		        v.style.display='block';
+		    }
+		    else{
+		        v.style.display='none';
+		    }
+		}
+	</script>
+</body>
+</html>

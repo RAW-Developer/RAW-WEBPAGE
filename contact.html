@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Saira:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Saira:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="public/css/contact.css">
+    <link rel="stylesheet" href="public/css/contact_media.css">
+    <title>contact</title>
+</head>
+<body>
+
+
+    <!-- ----------navigation bar-------------- -->
+    
+    <div class="navbar">
+        <img src="public/images/logo.png" alt="" width="5%">
+    <ul id="menu_list">
+        <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="team">Team</a>
+            </li>
+            <li>
+                <a href="about">About</a>
+            </li>
+            <li>
+                <a href="contact">contact</a>
+            </li> 
+            <li>
+                <a href="">projects</a>
+            </li>
+    </ul>
+    <i class="far fa-bars" onclick="togglefunction()"></i>
+    </div>
+    <div class="contact">
+        <img src="public/images/contact_background.jpg" alt="" width="100%" class="contactbg1">
+        <img src="public/images/contact_background_2.jpg" alt="" width="100%" class="contactbg2">
+        <img src="public/images/contact_background_3.jpg" alt="" width="100%" class="contactbg3">
+        <img src="public/images/contact_background_4.jpg" alt="" width="100%" class="contactbg4">
+    </div>
+    
+<!-- --------------conatct-details----------------------
+ -->
+    <div class="contact_details">
+        <div class="location">
+            <div class="logo">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="content">
+                <span>GCE keonjhar</span>
+                <p>Block-II 1st Floor, RAW Room GCE, keonjhar</p>
+            </div>
+        </div>
+        <div class="email">
+            <div class="logo">
+                <i class="fa fa-envelope"></i>
+            </div>
+            <div class="content">
+                <span>raw@gcekjr.ac.in</span>
+                <p>Reach us by sending just a email</p>
+            </div>   
+        </div>
+        <div class="phone">
+            <div class="logo">
+                <i class="fa fa-phone"></i>
+            </div>
+            <div class="content">
+                <span>+91-9090268384</span>
+                <p>Call us anytime between 8 A.M and 8 P.M</p>
+            </div>
+        </div>
+    </div>
+
+<!--     ---------------contact us form------------------------
+ -->
+ <div class="contact_us_form">
+   <div class="contact_us_form_part1">
+    <div class="contain">
+
+      <div class="wrapper">
+    
+        <div class="form">
+          <h4>GET IN TOUCH</h4>
+          <h2 class="form-headline" style="color: yellow;">Send us a message</h2>
+          <form id="submit-form" action="/contact" method="post">
+            <p>
+              <input id="name" class="form-input" type="text" placeholder="Your Name*" name="Name">
+              <small class="name-error"></small>
+            </p>
+            <p>
+              <input id="email" class="form-input" type="email" placeholder="Your Email*" name="email">
+              <small class="name-error"></small>
+            </p>
+            <p class="full-width">
+              <input id="company-name" class="form-input" type="text" placeholder="Subject*" required name="subject">
+              <small></small>
+            </p>
+            <p class="full-width">
+              <textarea  id="message" cols="30" rows="7" placeholder="Your Message*" required name="message"></textarea>
+              <small></small>
+            </p>
+            <p class="full-width" style="color: yellow;">
+              <input type="checkbox" id="checkbox" name="checkbox" checked > Yes, I would like to receive communications by call / email from RAW.
+            </p>
+            <p class="full-width">
+              <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+              <button class="reset-btn" onclick="reset()">Reset</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="contact_us_form_part2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.4902238963386!2d85.57709805051454!3d21.64477947176808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1f02f2f558f05b%3A0x3406cba4b2bdd1b!2sGovernment%20College%20of%20Engineering%20Keonjhar!5e0!3m2!1sen!2sin!4v1653924265057!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="max-width: 100%;"></iframe>
+   </div>
+ </div>
+ 
+
+<!--  ----------------footer--------------->
+ <footer class="footer-distributed">
+
+  <div class="footer-left">
+
+      <img src="public/images/RAW-LOGO-2.png" alt="" width="34%">
+      <p class="footer-links">
+          <a href="home" class="link-1">HOME</a>
+          
+          <a href="team">TEAM</a>
+
+          <a href="#">ABOUT</a>
+              
+          <a href="contact">CONTACTS</a>
+          
+          <a href="#">PROJECTS</a>
+      </p>
+
+      <p class="footer-company-name">© Copyright 2022. All Rights Reserved.</p>
+      <br>
+      <p class="footer-company-name">Designed & Developed By:   Amit Rout  |  Aniket Kumar | Darshanraj Pattanaik</p>
+  </div>
+
+  <div class="footer-center">
+
+      <div>
+          <i class="fas fa-location-arrow"></i>
+          <p><span>Block-II 1st Floor, RAW Room</span> GCE, keonjhar</p>
+      </div>
+
+      <div>
+          <i class="fa fa-phone"></i>
+          <p>+91-9090268384</p>
+      </div>
+
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:raw@gcekjr.ac.in">raw@gcekjr.ac.in</a></p>
+      </div>
+
+  </div>
+  <div class="footer-right">
+
+      <p class="footer-company-about">
+          <span>About RAW</span>
+          This Club is a community of students who derive pleasure in creating robots that may even be potent to work without human intervention. Each member of this family is provided insight into mechanical, basic electronic, monetary and informatory aid besides the indispensable guidance of experienced members.
+      </p>
+
+      <div class="footer-icons">
+
+          <a href="https://www.facebook.com/govermentcollegeofengineeringkeonjhar"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/gcekeonjhar"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/raw.gcekjr/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCBG11FnCVQKY7UgJW9kSjdw"><i class="fab fa-youtube"></i></a>
+      </div>
+  </div>
+  <hr style="color: yellow; background-color: yellow; height: 1px; border: none; width: 96%; margin-top: 20px;">
+</footer>
+
+ <script src="public/js/nav_res.js"></script>
+<script src="public/js/contact.js"></script>
+</body>
+</html>

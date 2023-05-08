@@ -1,0 +1,745 @@
+:root{
+    --one: hsla(0, 27%, 34%,0.65);
+    --two: hsl(0, 66%, 42%,0.65);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+  /* THIS IS THE CSS FOR NAVIGATION BAR */
+.navbar{
+    background: linear-gradient(to bottom,#000000,#1f1d1c);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+.navbar h1{
+    color: white;
+    font-size: 36px;
+}
+.navbar ul li{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.navbar ul li a:hover{
+    color: yellow;
+}
+.navbar i{
+    font-size: 25px;
+    color: yellow;
+    font-weight: bolder;
+    display: none;
+}
+.navbar i:hover{
+    color: white;
+    cursor: pointer;
+}
+.navbar img{
+    cursor: pointer;
+}
+        /* CSS FOR NAVIGATION ENDS HERR */
+
+        /* CSS FOR THE DIV .content STARTS HERE  */
+        .img1{
+            max-width: 100%;
+            height: auto;
+        }
+        .img2{
+            display: none;
+        }
+        .img3{
+            display: none;
+        }
+        .img4{
+            display: none;
+        }
+        .img5{
+            display: none;
+        }
+        .img6{
+            display: none;
+        }
+.we_create{
+           display: none;
+}
+.content{
+    margin-bottom: -694px;
+}
+.content h5{
+    color: yellow;
+    font-size: 28px;
+    position: relative;
+    bottom: 50%;
+    bottom: 429px;
+    left: 59px;
+    display: inline;
+}
+.left_content_1 h1{
+    font-size: 112px;
+    color: white;
+}
+.left_content_1 h6{
+    font-size: 18px;
+    color: yellow;
+    margin-bottom: 14px;
+}
+.left_content_1 p{
+    color: white;
+    font-size: 16px;
+}
+.left_content_1{
+    text-align: right;
+    position: relative;
+    bottom: 832px;
+    margin-right: 55px;
+}
+.yellow_box{
+    background-color: yellow;
+    height: 6px;
+    align-items: left;
+    width: 14%;
+    position: relative;
+    left: 86%;
+    margin-top: 12px;
+}
+        /* CSS FOR CONTENT ENDS HERE */
+        /* CSS FOR VISION STARTS HERE */
+.about_raw h1{
+    font-size: 160px;
+    color: #171717;
+}
+.about_raw h2{
+    color: white;
+    font-size: 56px;
+}
+.about_raw h3{
+    font-size: 21px;
+    color: yellow;
+    margin-left: 12px;
+    margin-top: 17px;
+}
+.about_raw{
+    position: relative;
+    bottom: 800px;
+    left: 30px;
+    width: 800px;
+}
+.yellow_box_2{
+    background-color: yellow;
+    height: 4px;
+    width: 120px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+.about_raw_details p {
+    color: white;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-left: 22px;
+}
+.about_raw_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+/* .vision{
+    max-height: 444px;
+} */
+.about_raw_details img{
+    width: 57%;
+}
+.vision_img2{
+    display: none;
+}
+.vision_img3{
+    display: none;
+}
+.vision_img4{
+    display: none;
+}
+ 
+        /* CSS FOR VISION ENDS HERE */
+        /* NIT RKL VIDEO DIV */
+.nit_rkl{
+    display: flex;
+    background-color: black;
+    padding-top: 165px;
+    padding-bottom: 100px;
+}
+.nit_rkl_content{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: center;
+    justify-content: center;
+}
+.nit_rkl h1{
+    color: #767676;
+    font-size: 40px;
+    word-spacing: 6px;
+    margin-right: 15px;
+}
+.nit_rkl h3{
+    color: yellow;
+    margin-top: 22px;
+    margin: 20px 139px;
+    letter-spacing: 3px;
+    text-align: left;
+    line-height: 45px;
+}
+.nit_rkl_video iframe{
+    width: 560px;
+    height: 315px;
+}
+.vision{
+    margin-bottom: -693px;
+}
+        /* NIT RKL VIDO DIV ENDS HERE */
+
+        /* insights div starts  */
+.insight{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+.insights_heading h1{
+    color: white;
+    margin-left: 10px;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+.insights_heading h5{
+    font-size: 21px;
+    margin-left: 10px;
+    color: yellow;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.card1,.card2,.card3,.card4{
+    background-color: #171717;
+}
+.cards{
+    display: flex;
+    align-items: center;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+}
+.card1 h3{
+    color: yellow;
+}
+.card1 p{
+    color: whitesmoke;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+}
+.card1,.card2,.card3,.card4{
+    margin: 10px 10px;
+    justify-content: space-around;
+}
+.card1 .image{
+    height: 200px;
+    background-image: url(images/cardr1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card2 .image{
+    height: 200px;
+    background-image: url(images/card2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card3 .image{
+    height: 200px;
+    background-image: url(images/card3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card4 .image{
+    height: 200px;
+    background-image: url(images/carrd4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cards h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cards p{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 27px;
+}
+.card1,.card2,.card3,.card4{
+    border-radius: 10px;
+}
+.image{
+    border-radius: 10px 10px 0 0;
+}
+.yellow_box3 {
+    height: 5px;
+    width: 121px;
+    background-color: yellow;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    margin-left: 13px;
+}
+.cards button{
+    display: inline;
+}
+.cards button {
+    background: yellow;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 15px 0 0px 0;
+}
+.cards a{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.cards :hover{
+    transform: scale(1.03);
+    transition:all 0.6s ease;
+}
+button :hover{
+    cursor: pointer;
+}
+.events{
+    background-color: #000000;
+}
+.events h1{
+    padding: 25px;
+    color: white;
+    font-size: 54px;
+}
+                /* RECENT EVENTS CSS STARTS */
+.events_box{
+    display: flex;
+    color: white;
+    background-color: #000000;
+    padding: 25px;
+}
+.part1,.part2{
+    width: 50%;
+    justify-content: space-between;
+}
+.part1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.event1{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.event2{
+    display: flex;
+}
+.event2_details{
+    width: 70%;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+.event3{
+    display: flex;
+    flex-direction: column;
+}
+.event4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.event4_details{
+    width: 70%;
+}
+.event1,.event2,.event3,.event4{
+    padding: 5px;
+}
+.part1,.part2{
+    background-color: #171717;
+}
+.part1{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.part2{
+    padding: 10px;
+    padding-top: 0px;
+}
+.event2_details,.event4_details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.event2_details p{
+    text-align: justify;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.event2_details h1,.event1_details h1,.event3_details h1,.event4_details h1{
+    color: yellow;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.event4_details p,.event1_details p,.event3_details p{
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.event1_details, .event3_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.event1_details p,.event3_details p{
+    line-height: 25px;
+}
+.event1_details h1, .event3_details h1{
+    margin-top: 20px;
+}
+.event4_details p{
+    padding-left: 20px;
+}
+.event4_details h1{
+    padding-left: 20px;
+}
+.p2{
+    display: none;
+}
+            /* MEDIA QUERY FOR JOIN RAW DIV */
+.join_raw{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, hsl(0deg 0% 100% / 0%), hsl(0deg 0% 0%)),
+    linear-gradient(0deg, hsl(0deg 0% 100% / 0%), hsl(0deg 0% 0%)),
+     url(images//purple-and-indigo-halftone-patterned-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.join_raw_part1 h5{
+    color: yellow;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.join_raw_part1 h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.join_raw_part1 p{
+    color: yellow;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.join_raw_part1 button{
+    background: yellow;
+    border: none;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+}
+.join_raw_part1 button a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    word-spacing: 0px;
+    letter-spacing: 2px;
+}
+.join_raw_part1{
+    margin-left: 38px;
+}
+.join_raw_part2{
+    display: flex;
+}
+.join_raw_part1 button{
+    cursor: pointer;
+}
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  
+  .footer-distributed{
+      background: #666;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px sans-serif;
+      padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+      display: inline-block;
+      vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+      width: 40%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3{
+      color:  #ffffff;
+      font: normal 36px 'Open Sans', cursive;
+      margin: 0;
+  }
+  
+  .footer-distributed h3 span{
+      color:  lightseagreen;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+      color:  #ffffff;
+      margin: 20px 0 12px;
+      padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+      display:inline-block;
+      line-height: 1.8;
+    font-weight:400;
+      text-decoration: none;
+      color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+      color:  #222;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+      width: 35%;
+  }
+  
+  .footer-distributed .footer-center i{
+      background-color:  #33383b;
+      color: #ffffff;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+      font-size: 17px;
+      line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+      display: inline-block;
+      color: #ffffff;
+    font-weight:400;
+      vertical-align: middle;
+      margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+      display:block;
+      font-weight: normal;
+      font-size:14px;
+      line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+      color:  lightseagreen;
+      text-decoration: none;;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight:300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+      width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about{
+      line-height: 20px;
+      color:  #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+      display: block;
+      color:  #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+      margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a{
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      background-color:  #33383b;
+      border-radius: 2px;
+  
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+  
+      margin-right: 3px;
+      margin-bottom: 5px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+  
+      .footer-distributed{
+          font: bold 14px sans-serif;
+      }
+  
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+      }
+  
+      .footer-distributed .footer-center i{
+          margin-left: 0;
+      }
+      .footer-distributed .footer-company-about span {
+        text-align: center;
+    }
+  }
+  
+  .footer-distributed {
+    background: #000;
+  }
+  .footer-distributed .footer-company-name {
+    color: yellow;
+  }
+  .footer-distributed .footer-center p a {
+    color: white;
+  }
+  .footer-distributed .footer-center i {
+    background-color: black;
+  }
+  .footer-distributed .footer-center i {
+    color: yellow;
+  }
+  .footer-distributed .footer-center i.fa-envelope {
+    font-size: 25px;
+}
+.footer-distributed .footer-company-about span {
+    color: yellow;
+}
+.footer-distributed .footer-company-about {
+    color: white;
+}
+.footer-distributed .footer-company-about span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.footer-distributed .footer-company-about {
+    color: white;
+    text-align: justify;
+}
+.fab{
+    color: yellow;
+    font-size: 22px;
+}
+.footer-distributed .footer-icons a {
+    background-color: black;
+}
+.footer-icons i:hover{
+    font-size: 30px;
+    color: white;
+}
+.footer-links a:hover{
+    color: yellow;
+}
