@@ -1,0 +1,90 @@
+/* ---------------------------------------media for navigation bar starts------------------------------------------------------------------- */
+@media screen and (max-width: 920px){
+    .navbar ul li a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 830px){
+    .navbar ul li a{
+        font-size: 13px;
+    }
+    .navbar i{
+        margin-left: -67px;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 750px){
+    .navbar ul li{
+        float: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .navbar img{
+        width: 70px;
+    }
+    .navbar i{
+        display: block;
+        font-size: 30px;
+    }
+    .navbar{
+        align-items: flex-start;
+    }    
+    .navbar img{
+        margin-top: 12px;
+    }
+    .navbar i{
+        margin-top: 46px;
+    }
+    .navbar{
+        padding: 0px 47px;
+    }
+    .navbar ul{
+        text-align: center;
+        margin-top: 90px;
+        margin-right: 59px;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    #menu_list{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+}
+/* -----------------------------for content-------------------------- */
+@media screen and (max-width: 750px){
+    .team h1 {
+        font-size: 40px;
+    }
+    .team p {
+        font-size: 15px;
+    }
+    .team{
+        padding-left: 25px;
+    }
+    .board_members h2 {
+        font-size: 25px;
+    }
+    .board_members h3 {
+        font-size: 15px;
+    }
+    .board_members h2 {
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 505px){
+    .yellow_box{
+        height: 237px;
+    }
+    .board_members h2 {
+        font-size: 17px;
+    }
+    .board_members h3 {
+        font-size: 13px;
+    }
+    .team p {
+        width: 80%;
+    }
+}

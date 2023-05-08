@@ -1,0 +1,256 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+*{
+	--nav-font-size: 1.3rem;
+	--hero-font-size: 2.5rem;
+	--hero-em-font-size: 4rem;
+	--normal-font-size: 1.5rem;
+	--small-font-size:  1.2rem;
+	--xsmall-font-size: 1rem;
+	--white: whitesmoke;
+	--yellow: #ffff00;
+	--black: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: var(--white);
+}
+body{
+	background-color: var(--black);
+}
+.navbar{
+    background: linear-gradient(to bottom,#000000,#1f1d1c);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+.navbar h1{
+    color: white;
+    font-size: 36px;
+}
+.navbar ul li{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.navbar ul li a:hover{
+    color: yellow;
+}
+.navbar i{
+    font-size: 25px;
+    color: yellow;
+    font-weight: bolder;
+    display: none;
+}
+.navbar i:hover{
+    color: white;
+    cursor: pointer;
+}
+.navbar img{
+    cursor: pointer;
+}
+/* Navbar Ends Here */
+#hero_section{
+	height: 100vh;
+	background-attachment: fixed;
+	background-image: url(../../images/pexels-mikhail-nilov-9242833.png);
+	background-size: cover;
+}
+#hero_section #black_hero_gradient{
+	content: "";
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1.0) 100%);
+}
+#black_hero_gradient > h1{
+	display: inline;
+	position: relative;
+	top: 10vh;
+	left: 45vw;
+	font-size: var(--hero-font-size);
+}
+#black_hero_gradient > h1 > em{
+	color: var(--yellow);
+	font-style: normal;
+	font-size: var(--hero-em-font-size);
+}
+#black_hero_gradient > p{
+	position: relative; 
+	width: 60vw; 
+	left: 2.5vw; 
+	top: 60vh; 
+	font-weight: bold; 
+	font-size: var(--small-font-size);
+}
+.quote{
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	font-size: var(--normal-font-size);
+	font-weight: bold;
+}
+.quote > p{
+	width: 90%;
+	text-align: center;
+}
+.quote em, #black_details_container_gradient > ul > li:first-child{
+	color: var(--yellow);
+	font-style: normal;
+	font-size: 2rem;
+}
+#details_container{
+	background-image: url(../../images/pexels-lenin-estrada-2103864.png);
+	background-size: cover;
+}
+#black_details_container_gradient{
+	background-attachment: fixed;
+	background: linear-gradient(rgba(0, 0, 0, 1.0) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1.0) 100%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+#black_details_container_gradient > ul{
+	width: 70%;
+	background: rgba(0, 0, 0, 0.4);
+	font-size: var(--small-font-size);
+	border: solid var(--yellow);
+	border-radius: 1rem;
+	padding: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	list-style: none;
+}
+#black_details_container_gradient > ul:nth-child(even){
+	flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 920px){
+    .navbar ul li a{
+        font-size: 13px;
+    }
+    #hero_section{
+    	background-position: center -20%;
+    }
+}
+@media screen and (max-width: 830px){
+    .navbar ul li a{
+        font-size: 13px;
+    }
+    .navbar i{
+        margin-left: -67px;
+        font-size: 17px;
+    }
+    #black_hero_gradient > h1{
+		top: 10vh;
+		left: 30vw;
+	}
+
+}
+@media screen and (max-width: 750px){
+    .navbar ul li{
+        float: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .navbar img{
+        width: 70px;
+    }
+    .navbar i{
+        display: block;
+        font-size: 30px;
+    }
+    .navbar{
+        align-items: flex-start;
+    }    
+    .navbar img{
+        margin-top: 12px;
+    }
+    .navbar i{
+        margin-top: 46px;
+    }
+    .navbar{
+        padding: 0px 47px;
+    }
+    .navbar ul{
+        text-align: center;
+        margin-top: 90px;
+        margin-right: 59px;
+    }
+    .navbar ul li a{
+        font-size: 15px;
+    }
+    #menu_list{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+	#black_hero_gradient > h1{
+		display: inline;
+		position: relative;
+		top: 10vh;
+		left: 15vw;
+		font-size: 1.3rem;
+	}
+	#black_hero_gradient > h1 > em{
+		color: var(--yellow);
+		font-style: normal;
+		--hero-em-font-size: 2.5rem;
+	}
+	#black_hero_gradient > p{
+	position: relative; 
+	width: 60vw; 
+	left: 2.5vw; 
+	top: 50vh; 
+	font-weight: bold; 
+	font-size: var(--small-font-size);
+	}
+}
+@media screen and (max-width: 450px){
+	#black_hero_gradient > h1{
+		top: 10vh;
+		left: 2.5vw;
+		font-size: var(--normal-font-size);
+	}
+	#black_hero_gradient > p{ 
+	left: 2.5vw; 
+	top: 50vh
+	}
+	#black_hero_gradient > p,.quote{
+	font-size: var(--xsmall-font-size);
+	}
+	.quote em, #black_details_container_gradient > ul > li:first-child{
+	font-size: var(--small-font-size);
+	}
+	#black_details_container_gradient > ul, #black_details_container_gradient > ul:nth-child(even){
+		flex-direction: column;
+		gap: 1rem;
+	}
+	#black_details_container_gradient > ul{
+	font-size: var(--xsmall-font-size);
+}
+
+}

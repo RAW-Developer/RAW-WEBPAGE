@@ -1,0 +1,421 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+
+/* -------------------------------------------------------Navigarion bar css----------------------------------------------------------- */
+
+.navbar{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+.navbar h1{
+    color: white;
+    font-size: 36px;
+}
+.navbar ul li{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 45px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.navbar ul li a:hover{
+    color: yellow;
+}
+.navbar i{
+    font-size: 25px;
+    color: yellow;
+    font-weight: bolder;
+    display: none;
+}
+.navbar i:hover{
+    color: white;
+    cursor: pointer;
+}
+.navbar img{
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------navigaton bar css ends--------------------------------------------------- */
+
+/* -----------------------------------------------------------------team section starts here--------------------------------------------------------- */
+.team{
+    background-color: black;
+    padding-left: 80px;
+    display: flex;
+    padding-top: 50px;
+}
+.team h1{
+    color: yellow;
+    /* text-transform: uppercase; */
+    font-size: 70px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-family: 'MuseoModerno', cursive;
+
+}
+.team p{
+    color: white;
+    word-spacing: 2px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+}
+.yellow_box{
+    height: 190px;
+    width: 3px;
+    background-color: yellow;
+    margin-right: 45px;
+}
+.board_members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.board_members h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    color: yellow;
+    letter-spacing: 3px;
+    font-family: 'Saira', sans-serif;
+}
+.board_members h2{
+    color: white;
+/*     text-transform: uppercase;
+ */    margin-top: 10px;
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+/* ------------------------------------------------- css for cards starts here------------------------------------------------------ */
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0 0px;
+    flex-wrap: wrap;
+}
+.cards div{
+    padding: 10px;
+    margin-bottom: -200px;
+}
+.cards ul{
+    list-style: none;
+}
+.cards ul li{
+    display: inline;
+    text-align: center;
+}
+.cards i{
+    color: #15C7E7;
+    margin: 0 5px 0 5px;
+    font-size: 23px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-400px);
+    height: 400px;
+    opacity: 0;
+}
+.details:hover{
+    opacity: 0.9;
+    transition: all .3s ease .2s;
+}
+.cards h5{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+/*     text-transform: uppercase;
+ */    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.cards h6{
+    color: yellow;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.cards img{
+    border-radius: 10px;
+}
+.cards i:hover{
+    color: yellow;
+}
+/* ------------------------footer css starts---------------- */
+.footer-distributed{
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+  font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+  font-weight:400;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  lightseagreen;
+    text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+    .footer-distributed .footer-company-about span {
+      text-align: center;
+  }
+}
+
+.footer-distributed {
+  background: #000;
+}
+.footer-distributed .footer-company-name {
+  color: yellow;
+}
+.footer-distributed .footer-center p a {
+  color: white;
+}
+.footer-distributed .footer-center i {
+  background-color: black;
+}
+.footer-distributed .footer-center i {
+  color: yellow;
+}
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 25px;
+}
+.footer-distributed .footer-company-about span {
+  color: yellow;
+}
+.footer-distributed .footer-company-about {
+  color: white;
+}
+.footer-distributed .footer-company-about span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.footer-distributed .footer-company-about {
+  color: white;
+  text-align: justify;
+}
+.fab{
+  color: yellow;
+  font-size: 22px;
+}
+.footer-distributed .footer-icons a {
+  background-color: black;
+}
+.footer-icons i:hover{
+  font-size: 30px;
+  color: white;
+}
+.footer-links a:hover{
+  color: yellow;
+}
+
+
+/* ----------our team image------------------ */
+.our_team h2{
+    text-transform: uppercase;
+    font-weight: 100;
+    color: yellow;
+    letter-spacing: 3px;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.our_team img{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+    border-radius: 8px;
+}
